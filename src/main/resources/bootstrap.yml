@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: eureka-remote-server
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true                 #Obligado arrancar con la config remota
